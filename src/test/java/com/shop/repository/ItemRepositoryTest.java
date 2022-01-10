@@ -60,6 +60,16 @@ class ItemRepositoryTest {
     }
 
     @Test
+    @DisplayName("상품명, 상품상세설명 or 테스트")
+    public void findByItemNmOrItemDetailTest(){
+        this.createItemList();
+        List<Item> itemList = itemRepository.findByItemOrItemDetail("테스트 상품1", "테스트 상품 상세 설명5");
+        for(Item item : itemList){
+            System.out.println(item.toString());
+        }
+    }
+
+    @Test
     @DisplayName("가격 LessThan 테스트")
     public void findByPriceLessThanTest(){
         this.createItemList();
