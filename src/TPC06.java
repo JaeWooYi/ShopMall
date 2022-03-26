@@ -1,6 +1,6 @@
-
+//
 public class TPC06 {
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// 5. 메서드 -> 동작(method), 기능(function)
 		// 메서드는 독립적으로 만들어야하기 때문에 메인 바깥
 		int i = 53;
