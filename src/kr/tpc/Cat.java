@@ -1,6 +1,7 @@
 package kr.tpc;
 
 public class Cat extends Animal{
+	@Override
 	public void eat() {
 		System.out.println("냥냥 먹다.");
 	}
