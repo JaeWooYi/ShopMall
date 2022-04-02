@@ -7,4 +7,9 @@ public class Dog extends Animal{
 	public void eat() {
 		System.out.println("멍멍이 먹는다.");
 	}
+	
+	// 생성자 생략 되어있음.
+	public Dog() {
+		super();	// new Animal();을 내부적으로 호출한 것과 비슷
+	}
 }
