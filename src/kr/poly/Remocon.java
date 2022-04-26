@@ -12,4 +12,5 @@ public interface Remocon {
 	// 상수 선언 가능
 	int MAX_Channel = 100;	// 상수임 -> public static final이 생략 되어 있다.
 	int MIN_Channel = 1;	// 물론 public final static 이라고 써도 된다.
+	
 }
