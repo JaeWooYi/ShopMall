@@ -11,5 +11,7 @@ public class TPC34 {
 		System.out.println(str.indexOf("PS"));	// -1 : 없다는 뜻
 		System.out.println(str.replace("E", "e"));
 		System.out.println();
+		System.out.println();
+		System.out.println();
 	}
 }
